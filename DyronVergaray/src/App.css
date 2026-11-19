@@ -1,0 +1,77 @@
+body {
+  display: block;
+  margin: 0;
+  background: #f4f6fb;
+  color: #1f2937;
+  font-family: system-ui, sans-serif;
+}
+
+#root {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 16px;
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  background: #fff;
+  color: #1f2937;
+}
+
+.search:focus {
+  border-color: #2563eb;
+}
+
+.status {
+  margin: 12px 0;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.card {
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.card a {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
